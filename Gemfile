@@ -9,6 +9,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library.
 gem 'jquery-rails'
+# Use React for the JavaScript frontend.
+gem 'react-rails', '~> 1.6.0'
 # Turbolinks makes following links in your web application faster.
 gem 'turbolinks'
 # Build JSON APIs with ease.
