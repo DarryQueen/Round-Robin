@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks' }, :skip => [:sessions, :registrations]
   as :user do
-    get '/login' => 'devise/sessions#new', :as => :new_user_session
-    delete '/logout' => 'devise/sessions#destroy', :as => :destroy_user_session
+    get '/login' => 'sessions#new', :as => :new_user_session
+    delete '/logout' => 'sessions#destroy', :as => :destroy_user_session
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
