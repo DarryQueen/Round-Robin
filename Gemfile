@@ -21,6 +21,11 @@ gem 'semantic-ui-sass'
 
 # Devise for user authentication.
 gem 'devise'
+# OmniAuth for Spotify OAuth.
+gem 'omniauth-spotify'
+
+# Figaro for key storage.
+gem 'figaro'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
