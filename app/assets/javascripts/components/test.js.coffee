@@ -1,4 +1,4 @@
 @Test = React.createClass
   render: ->
     React.DOM.h1 null,
-      'Hello'
+      "Hello, #{@props.data.email}"
