@@ -22,6 +22,7 @@ gem 'semantic-ui-sass'
 # Devise for user authentication.
 gem 'devise'
 # OmniAuth for Spotify OAuth.
+gem 'omniauth-oauth2', '~> 1.3.1'
 gem 'omniauth-spotify'
 
 # Figaro for key storage.
