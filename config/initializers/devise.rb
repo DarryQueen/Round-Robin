@@ -256,4 +256,9 @@ Devise.setup do |config|
   # When using omniauth, Devise cannot automatically set Omniauth path,
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
+
+  # To set up Figaro, create or update the file "app/config/application.yml"
+  # (the format is found in application.yml.default).
+
+  config.omniauth :spotify, Figaro.env.spotify_client_id, Figaro.env.spotify_client_secret, :scope => 'playlist-read-private playlist-modify-public user-library-read user-read-email'
 end
