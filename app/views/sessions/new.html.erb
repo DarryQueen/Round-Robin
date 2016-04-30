@@ -1,0 +1,22 @@
+<style type="text/css">
+  body {
+    background-color: #dadada;
+  }
+  body > .grid {
+    height: 100%;
+  }
+  .image {
+    margin-top: -100px;
+  }
+  .column {
+    max-width: 450px;
+  }
+</style>
+
+<div class="ui middle aligned center aligned grid">
+  <div class="column">
+    <%= link_to user_omniauth_authorize_path(:spotify), :class => 'green ui big button' do %>
+      <i class="spotify icon" aria-hidden="true"></i>Login with Spotify
+    <% end %>
+  </div>
+</div>

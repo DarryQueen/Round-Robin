@@ -1,0 +1,4 @@
+# Add configuration values here, as shown below.
+
+spotify_client_id: "INSERT_SPOTIFY_CLIENT_ID"
+spotify_client_secret: "INSERT_SPOTIFY_CLIENT_SECRET"
